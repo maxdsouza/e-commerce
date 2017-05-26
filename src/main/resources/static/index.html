@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>ServRes - Serviços Residencias</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Place your description here">
+<meta name="keywords" content="put, your, keyword, here">
+<meta name="author" content="Templates.com - website templates provider">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body id="page1" onLoad="new ElementMaxHeight();">
+<div class="tail-top">
+<!-- header -->
+	<header>
+		<div class="container">
+			<div class="header-box">
+				<div class="left">
+					<div class="right">
+						<nav>
+							<ul>
+								<li class="current"><a href="index.html">Página Inicial</a></li>
+								<li><a href="services.html">Serviços</a></li>
+								<li><a href="solutions.html">Soluções</a></li>
+								<li><a href="support.html">Suporte</a></li>
+								<li><a href="contacts.html">Contatos</a></li>
+							</ul>
+						</nav>
+						<h1><a href="index.html"><span>Serviços</span>Flex</a></h1>
+					</div>
+				</div>
+			</div>
+			<span class="top-info">24/7 Contrato &amp; Suporte	+ 55 34 99204-0640  &nbsp; l  &nbsp; <a href="#">Procure</a></span>
+			<form action="" id="login-form">
+				<fieldset>
+					<span class="text">
+						<input type="text" value="Usuário" onFocus="if(this.value=='Username'){this.value=''}" onBlur="if(this.value==''){this.value='Username'}">
+					</span>
+					<span class="text">
+						<input type="password" value="Password" onFocus="if(this.value=='Password'){this.value=''}" onBlur="if(this.value==''){this.value='Password'}">
+					</span>
+					<a href="#" class="login" onClick="document.getElementById('login-form').submit()"><span><span>Entrar</span></span></a>
+					<span class="links"><a href="#">Perdeu sua senha?</a><br/><a href="#">Registre</a></span>
+				</fieldset>
+			</form>
+		</div>
+	</header>
+<!-- content -->
+	<section id="content">
+		<div class="container">
+			<div id="faded">
+				<ul class="slides">
+					<li><img src="images/slide-title1.gif"><a href="#"><span><span>Leia Mais</span></span></a></li>
+					<li><img src="images/slide-title4.gif"><a href="#"><span><span>Leia Mais</span></span></a></li>
+					<li><img src="images/slide-title3.gif"><a href="#"><span><span>Leia Mais</span></span></a></li>
+					<li><img src="images/slide-title2.gif"><a href="#"><span><span>Leia Mais</span></span></a></li>
+				</ul>
+				<ul class="pagination">
+					<li><a href="#" rel="0"><span>Serviços</span><small>Consiga mais informações</small></a></li>
+					<li><a href="#" rel="1"><span>Aluguel</span><small>Consiga mais informações</small></a></li>
+					<li><a href="#" rel="2"><span>Profissionais</span><small>Consiga mais informações</small></a></li>
+					<li><a href="#" rel="3"><span>Materiais</span><small>Consiga mais informações</small></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- footer -->
+<footer>
+	<div class="container">
+		<div class="inside">
+			<a class="new_window">Tecframe</a> designed by tecframe.com<br>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+<script type="text/javascript" src="js/maxheight.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/jquery.faded.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#faded").faded({
+			speed: 500,
+			crossfade: true,
+			autoplay: 10000,
+			autopagination:false
+		});
+		
+		$('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
+</body>
+</html>
